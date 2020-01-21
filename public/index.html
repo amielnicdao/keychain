@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Rokkitt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title> My KeyChain </title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My KeyChain <img src="images/whitekey.png"> <a
+                style="font-family:'Rokkitt', serif; color:white;">PASSWORD MANAGER</a> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+
+                <a class="btn btn-outline-success my-2 my-sm-0" type="submit" role="button" href="/login">Login</a>
+
+            </form>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active relative">
+                <img class="d-block" src="images/KEYS.jpg" alt="First slide">
+                <div class="container1">
+                    <div class="carousel-caption text-center">
+                    </div>
+                </div>
+                <div class="absolute">
+                    <div class="header"> Let's Get Started </div>
+                    <img class="lock" src="images/lock-4-64.png">
+                    <form id="username3">
+                        <div class="form-group">
+
+                            <label for="InputUsername" id="newusertext">Start saving your passwords on a site you can
+                                trust</label>
+                            <input type="text" class="form-control" placeholder="Create a new username" id="inputUser">
+                        </div>
+                        <div class="form-group">
+
+                            <input type="password" class="form-control" placeholder="Create a password" id="inputPass">
+
+                        </div>
+                        <button type="submit" id="signup" class="btn b2 btn-success">Sign Me Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr id="firsthr">
+    <div class="row section2" id="iconHolder">
+        <div class="col-lg-3">
+            <img class="images" src="images/light-bulb.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 id="features">Remembers all your passwords, logins, and more.</h4>
+                <p>So you don't have to — you'll only need to remember one single password, the one for your Keychain.
+                </p>
+            </div>
+
+        </div>
+        <div class="col-lg-3">
+            <img class="images" src="images/unlock.png" alt="Card image cap">
+            <div class="card-body">
+                <br>
+                <h4 id="features">Just log in and go.</h4>
+                <br>
+                <p>Once you save a password in myKeyChain, you'll always have it when you need it. Logging in is fast
+                    and easy.</p>
+            </div>
+
+        </div>
+        <div class="col-lg-3">
+            <img class="images" src="images/monitor-tablet-and-smartohone.png" alt="Card image cap">
+            <div class="card-body">
+
+                <h4 id="features">Access passwords anywhere. </h4>
+                <br>
+                <p>Whether you're using a laptop, phone, or another device, our site allows you to access your passwords
+                    from any platform.</p>
+            </div>
+
+        </div>
+        <div class="col-lg-3">
+
+            <img class="images" src="images/shield.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 id="features">Protects your private notes and other text data.
+                </h4>
+                <p>Keep your secrets, licenses, passport information and more in our secure vault.</p>
+            </div>
+        </div>
+    </div>
+    <hr id="secondhr">
+    <div class="row section3">
+        <div class="col-6 lastdivpic">
+            <img class="image3" src="images/dashboard.png" alt="Card image cap" width="600px" height="350px">
+        </div>
+        <div class="col-6 lastdivtext">
+            <div id="text">
+                <h1 id="previewtext">Start saving your logins on myKeychain</h1>
+            </div>
+            <div id="text"><span>
+                    <h1>—the safe, simple way to store
+                        and fill passwords and personal information.</h1>
+                </span></div>
+        </div>
+    </div>
+
+    <div class="footer"> Copyright © </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
