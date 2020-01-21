@@ -1,0 +1,142 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.carousel
+{
+    height: 600px;
+    background-image: url("../images/fence.jpeg") ;
+    background-size: contain;
+}
+
+.d-block
+{
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+#firsthr { 
+    margin-top: 70px;
+    height: 1px; 
+    background: grey;
+    width:90%;
+}
+
+#secondhr {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 1px; 
+    background: grey;
+    width:90%;
+}
+
+.absolute {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 23%;
+    height: 400px;
+
+}
+
+.header {
+    background-color: #343a40;
+    height:15%;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.lock {
+ width: 20%;
+  margin: 28px 130px;
+}
+
+#username3 {
+    padding-left: 5px;
+}
+
+#inputUser {
+    margin: auto;
+    width: 85%;
+}
+
+#inputPass {
+    margin: auto;
+    width: 85%;
+}
+
+.b2 {
+    margin-left:30%;
+}
+
+#newusertext {
+    text-align:center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.images{
+    margin: 20px 30%;
+   
+}
+
+#features {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom:10px;
+}
+
+p {
+    text-align: right;
+}
+
+.section2 {
+    padding-top: 50px;
+}
+
+.section3 {
+    border-top: 1px solid #DFE5E8;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255,255,255,1);
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    padding: 60px 30px 60px 0px;
+}
+
+#previewtext{
+    padding: 50px 0px 0px;
+}
+
+.image3 {
+    float: right;
+}
+
+.footer {
+    border-top: 7px solid  seagreen;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 20px;
+  }
+
+  .col-6 {
+      opacity: 0;
+  }

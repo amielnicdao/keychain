@@ -1,0 +1,109 @@
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    
+}
+
+#keys {
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+    border-bottom: 1px solid black;
+    font-family: 'Michroma', sans-serif;
+}
+
+.nav-link {
+    color: seagreen;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: seagreen;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+}
+
+#text {
+    padding: 15px
+}
+
+.col-form-label {
+    padding-bottom: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.btn-success {
+    background-color: seagreen;
+}
+
+.delete {
+    float: right;
+    color: red;
+    display: none;
+}
+
+.nav-link:hover .delete {
+   display:block  
+}
+
+#pillscol {
+    width: 65%;
+}
+
+#deleteBtn {
+    background-color: red;
+}
+
+.modal {
+    text-align: center;
+  }
+  
+.modal-dialog {
+    text-align: left;
+    vertical-align: middle;
+  }
+
+#wb {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Galada', cursive;
+    letter-spacing: 1.5px;
+  }
+
+#wbhr {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 60%;
+    border-bottom: 1px solid darkslategray;   
+}
+
+.mb-3 {
+    margin-bottom: 50px !important;
+}
+
+.card-title {
+    text-align: center;
+  }
+
+.footer {
+    border-top: 7px solid  seagreen;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 30px;
+    padding-bottom: 2px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
