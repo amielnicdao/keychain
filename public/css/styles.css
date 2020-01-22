@@ -4,15 +4,13 @@
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-.carousel
-{
+.carousel {
     height: 600px;
     background-image: url("../images/fence.jpeg") ;
     background-size: contain;
 }
 
-.d-block
-{
+.d-block {
     width: 70%;
     height: 600px;
     margin: auto;
@@ -41,7 +39,6 @@
     right: 20%;
     width: 23%;
     height: 400px;
-
 }
 
 .header {
@@ -87,8 +84,7 @@
 }
 
 .images{
-    margin: 20px 30%;
-   
+    margin: 20px 30%; 
 }
 
 #features {
