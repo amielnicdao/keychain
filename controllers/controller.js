@@ -25,20 +25,20 @@ router.get("/display", function (req, res) {
     });
 });
 
-// router.get("/signup", function(req, res){
-//     res.sendFile(path.join(__dirname, "../public/signup.html"));
-// });
+router.get("/signup", function(req, res){
+    res.sendFile(path.join(__dirname, "../public/signup.html"));
+});
 
 
-// router.post("/signup", function(req, res){
-//     pwd.create([
-//         "name", "password"
-//     ], [
-//         req.body.name, req.body.password
-//     ], function(result) {
-//         res.json({ id: result.insertId});
-//     });
-// });
+router.post("/signup", function(req, res){
+    pwd.create([
+        "name", "password"
+    ], [
+        req.body.name, req.body.password
+    ], function(result) {
+        res.json({ id: result.insertId});
+    });
+});
 
 router.get("/dashboard", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/dashboard.html"));

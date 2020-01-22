@@ -46,7 +46,7 @@ $(window).scroll(function () {
     }
 });
 
-//On click of "Sign Me Up" button
+//On click of "Login" button
 $("#signup").on("click", function (event) {
     event.preventDefault();
 
