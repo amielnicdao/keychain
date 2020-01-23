@@ -33,17 +33,17 @@ You will need to install the following to work on myKeychain:
 1. Go to the Heroku app
 2. Create an account.
 
-    ![New Account](newAccount.PNG)
+    ![New Account](images/newAccount.PNG)
 
 3. On the Log In page, click on your name.
 
-    ![Log In](login.PNG)
+    ![Log In](images/login.PNG)
 
 4. Once on the dashboard, you can see your online accounts. You can create, update, and delete accounts.
 
     **Dashboard**
 
-    ![Dashboard](dash.PNG)
+    ![Dashboard](images/dash.PNG)
 
 ## Created By
 
