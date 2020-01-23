@@ -1,6 +1,6 @@
 # myKeychain
 
-Rutgers Coding Bootcamp Project 2
+Rutgers Coding Bootcamp Project 2 - [Deployed on Heroku](https://mighty-caverns-35804.herokuapp.com/)
 
 myKeychain is a full-featured CRUD application that stores users' usernames and passwords to different online accounts. 
 
@@ -51,8 +51,6 @@ You will need to install the following to work on myKeychain:
 * **Deion Aujero**
 * **Christian Reyes**
 * **Claudia Gutarra**
-
-[GitHub](https://github.com/amielnicdao/keychain)
 
 ## Technologies
 
